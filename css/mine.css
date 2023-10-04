@@ -32,3 +32,18 @@
     height: 420px;
     width: 350px;
 }
+.form input {
+    color: #000;
+}
+.social{
+    list-style: none;
+    display: flex;
+    color: #fff;
+    font-size: 25px;
+}
+.social li{
+    margin: 0 10px;
+}
+.social li a i:hover{
+    color: #fd7e14;
+}
