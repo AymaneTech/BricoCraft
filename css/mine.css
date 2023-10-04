@@ -18,6 +18,10 @@
 .resize h1{
     font-size: 100px;
 }
+.align{
+    margin-left: 330px;
+    text-align: center;
+}
 .route a{
     border: none !important;
     color: #000 !important;
