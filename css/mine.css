@@ -12,6 +12,19 @@
     background: #fff;
 }
 .about-section{
-    height: 500px;
+    height: 400px;
     margin-bottom: 70px;
+}
+.resize h1{
+    font-size: 100px;
+}
+.route a{
+    border: none !important;
+    color: #000 !important;
+    background: transparent !important;
+    padding: 5px 5px !important;
+}
+.about_img-size img{
+    height: 420px;
+    width: 350px;
 }
