@@ -17,9 +17,10 @@
 }
 .resize h1{
     font-size: 100px;
+    text-transform: uppercase;
 }
 .align{
-    margin-left: 330px;
+    margin-left: 300px;
     text-align: center;
 }
 .route a{
