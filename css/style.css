@@ -827,12 +827,16 @@ a:focus {
   margin: 0;
   padding: 25px 0;
   color: #ffffff;
-  text-align: center;
-  border-top: 0.8px solid #ffffff;
 }
 
 .footer_section a {
   color: inherit;
+}
+footer .container{
+  border-top: 0.8px solid #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 /* end footer section*/
