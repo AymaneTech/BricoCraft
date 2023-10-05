@@ -120,6 +120,10 @@ a:focus {
   font-size: 24px;
   font-weight: bold;
 }
+.navbar-brand img{
+  height: 50px;
+  width: auto;
+}
 
 .navbar-brand span {
   color: #0355cc;
@@ -360,6 +364,11 @@ a:focus {
   transition: all 0.3s;
   -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+  
+transition: transform 1s ease;
+}
+.feature_section .feature_container .box:hover {
+  transform: scale(1.1);
 }
 
 .feature_section .feature_container .box .img-box {
@@ -434,6 +443,8 @@ a:focus {
 
 .about_section .img-box img {
   width: 100%;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
 }
 
 .professional_section {
@@ -448,7 +459,12 @@ a:focus {
 
 .professional_section .img-box img {
   width: 100%;
+  transition: transform 1s ease;
 }
+.professional_section .img-box img:hover{
+  transform: scale(1.1);
+}
+
 
 .professional_section .detail-box h2 {
   text-transform: uppercase;
@@ -582,6 +598,10 @@ a:focus {
   -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
   padding: 25px;
+  transition: 1s ease;
+}
+.client_section .box:hover {
+  transform: scale(1.01);
 }
 
 .client_section .box .client_id {
